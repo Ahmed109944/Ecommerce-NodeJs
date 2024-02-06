@@ -1,11 +1,11 @@
 # Ecommerce-NodeJs
 Small E-commerce App
 **************************************************************************
-• User schema (userName, email, password (hashed), role, isVerfied, Adressed (user may have more that one address) ).
-• Product schema (productName, slug, priceAfterDiscount, finalPrice, image, category, stock)
-• Category schema (categoryName, image, createdBy)
-• Coupon schema (couponCode, value, createdBy, updatedBy, deletedBy, expireIn)
-• Cart schema (userId, totalPrice, priceAfterDiscount, products)
+-  User schema (userName, email, password (hashed), role, isVerfied, Adressed (user may have more that one address) ).
+-  Product schema (productName, slug, priceAfterDiscount, finalPrice, image, category, stock)
+-  category schema (categoryName, image, createdBy)
+-  Coupon schema (couponCode, value, createdBy, updatedBy, deletedBy, expireIn)
+-  Cart schema (userId, totalPrice, priceAfterDiscount, products)
 **************************************************************************
 UserAPI:
 - Signup
